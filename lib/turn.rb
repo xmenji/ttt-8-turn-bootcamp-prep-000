@@ -10,12 +10,14 @@ end
 def turn(board)
   puts "Please enter 1-9:"
   user_choice = gets
+  position = input_to_index(user_choice)
   
   #check if user input is valid, keep asking until valid input recieved
-  if !valid_move?(board, input_to_index(user_choice))
+  if !valid_move?(board, position)
     turn(board)
   end
   
+  move(user_choiced)
 end
 
 # code your input_to_index and move method here!
