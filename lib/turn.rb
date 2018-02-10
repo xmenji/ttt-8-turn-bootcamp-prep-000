@@ -9,6 +9,9 @@ end
 #Player take turn method
 def turn(board)
   puts "Please enter 1-9:"
+  user_choice = gets
+  
+  
 end
 
 # code your input_to_index and move method here!
