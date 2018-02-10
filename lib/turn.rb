@@ -6,6 +6,11 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
+#Player take turn method
+def turn(board)
+  
+end
+
 # code your input_to_index and move method here!
 def input_to_index(position)
   index = position.to_i  
