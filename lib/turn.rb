@@ -17,7 +17,7 @@ def turn(board)
     turn(board)
   end
   
-  move(board, position))
+  move(board, position)
 end
 
 # code your input_to_index and move method here!
