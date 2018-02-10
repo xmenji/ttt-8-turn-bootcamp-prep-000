@@ -12,5 +12,3 @@ display_board(board)
 
 #let user take turn
 turn(board)
-
-display_board(board)
