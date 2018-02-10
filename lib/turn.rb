@@ -11,7 +11,7 @@ def turn(board)
   puts "Please enter 1-9:"
   user_choice = gets
   
-  if !valid_move?(board, user_choice)
+  if !valid_move?(board, input_to_index(user_choice))
     turn(board)
   end
   
